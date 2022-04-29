@@ -1,0 +1,19 @@
+{
+  "name": "coremodules",
+  "version": "1.0.0",
+  "description": "> Core modules são códigos NATIVOS do node js, ou seja, não precisar dar um npm install.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaopfsiqueira/coreModules.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaopfsiqueira/coreModules/issues"
+  },
+  "homepage": "https://github.com/joaopfsiqueira/coreModules#readme"
+}
