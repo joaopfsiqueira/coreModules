@@ -1,0 +1,11 @@
+{
+  "name": "modulehttp",
+  "version": "1.0.0",
+  "description": "Testando o core module HTTP",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
