@@ -10,3 +10,6 @@
 - Fs
 - Url
 
+
+# Atalhos
+> Em um arquivo .html, digite ! e aperte tab.
