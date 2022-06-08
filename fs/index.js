@@ -7,7 +7,11 @@ const port = 3000;
 // res é mandar a resposta para o cliente. No caso, res.write escreve na tela algo.
 // SEMPRE é necessário usar o end, para não ficar em looping.
 const server = http.createServer((req, res) => {
-
+    fs.readFile('message.html', function(err, data) {
+        res.writeHead(200, {'Content-Type': 'text/html'});
+        res.write(data); //escrevendo o conteudo do arquivo buscado
+        return res.end();
+    })
 })
 
 
